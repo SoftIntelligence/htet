@@ -70,7 +70,7 @@ h1 span {
                   {{- $articlesPerRow := .Site.Params.articlesPerRow -}}
                   <div class="columns">
                     {{/*  <div class="container">  */}}
-                    {{- range $index, $element := first 8 .Site.Pages -}}
+                    {{- range $index, $element := first 8 (where  .Site.Pages "Type" "post") -}}
                         {{- if and (eq (mod $index $articlesPerRow) 0 ) (not (eq $index 0)) -}}
                           {{/*  </div>  */}}
                           </div>
