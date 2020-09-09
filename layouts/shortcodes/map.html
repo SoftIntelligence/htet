@@ -1,4 +1,7 @@
 
+<!DOCTYPE html>
+<html>
+<head>
  <style>
       .map {
         height: 400px;
@@ -7,19 +10,23 @@
         margin-right: auto;
         display: block;
         border-radius: 20px;
+        
 
       }
     </style>
-   
-
-  
-    <div id="map" class="map"></div>
+</head>
+<body>
+<div>
+   <div id="map" class="map"></div>
     <div id="popup" class="ol-popup">
      <a href="#" id="popup-closer" class="ol-popup-closer"></a>
      <div id="popup-content"></div>
  </div>
+</div>
+  
+   
     <script type="text/javascript">
-      var ll =[{{ .Get 'long' }},{{.Get 'lat' }}];
+      var ll =[{{ .Get "lon" }} ,{{.Get "lat" }}];
       var map = new ol.Map({
         target: 'map',
         layers: [
@@ -74,3 +81,8 @@
      }
  });   
     </script>
+
+</body>
+</html>
+ 
+   
