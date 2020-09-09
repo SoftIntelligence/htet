@@ -4,8 +4,7 @@ date: 2020-09-09T09:06:35+06:30
 tags: ["Shan"]
 type: "post"
 hideLastModified: true
-summaryImage: "images/naungcho1.jpg" 
-keepImageRatio: true
+
 ---
 
  ဆောင်းရာသီလေးမှာ သွားလည်စရာ လေး  နောင်ချို တိမ်ပင်လယ် ☁️☁️☁️
