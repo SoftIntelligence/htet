@@ -8,6 +8,7 @@
         {{/*  <section class="section content">  */}}
         <section class="section content has-text-justified">
           <!-- <div class="content"> -->
+          <img src="{{ .Params.Image | absURL }}" class="img-fluid w-100" alt="{{ .Title }}">   
             {{- .Content -}}
           <!-- </div> -->
         </section>

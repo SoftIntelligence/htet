@@ -130,7 +130,7 @@ params:
     # option to specify your facebook account in the footer; 
     # **uncomment** the lines below to show in footer
     facebook: 
-      link: your.username
+      link: htethtet.oomyanmar 
       title: Facebook
     # option to specify your github account in the footer; 
     # **uncomment** the below lines to show in footer
@@ -145,7 +145,7 @@ params:
     # option to specify your instagram username in the footer; 
     # **uncomment** the below lines to show in footer
     instagram: 
-      link: username
+      link: htethtet.oomyanmar 
       title: Instagram
     # option to specify the copyright in the footer
   copyright: My Bucketlist By Htet - 2020
